@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 
-class LoginViewController: UIViewController {
+class LoginVC: UIViewController {
     
 //    @IBOutlet weak var txtEmail: UITextField!
 //    @IBOutlet weak var txtPassword: UITextField!
@@ -49,6 +49,7 @@ class LoginViewController: UIViewController {
         
         
     }
+
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         txtEmail.resignFirstResponder()

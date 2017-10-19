@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CEC3A8D1F98502500CD62CF /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC3A8C1F98502500CD62CF /* HomepageViewController.swift */; };
 		5CF334DC1F8AF0EA003F1E0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF334DB1F8AF0EA003F1E0F /* AppDelegate.swift */; };
 		5CF334DE1F8AF0EA003F1E0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF334DD1F8AF0EA003F1E0F /* ViewController.swift */; };
 		5CF334E31F8AF0EA003F1E0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF334E21F8AF0EA003F1E0F /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		4F3AE4912C278AC5EA4B4083 /* Pods_CampusTransit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampusTransit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEC3A8C1F98502500CD62CF /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
 		5CF334D81F8AF0EA003F1E0F /* CampusTransit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampusTransit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF334DB1F8AF0EA003F1E0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CF334DD1F8AF0EA003F1E0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				5CF334F01F8AF1C2003F1E0F /* LoginViewController.swift */,
 				5CF334F11F8AF1C2003F1E0F /* RegisterViewController.swift */,
+				5CEC3A8C1F98502500CD62CF /* HomepageViewController.swift */,
 				5CF334EE1F8AF1A3003F1E0F /* Main.storyboard */,
 				5CF334ED1F8AF11C003F1E0F /* New Group */,
 				5CF334DB1F8AF0EA003F1E0F /* AppDelegate.swift */,
@@ -247,6 +250,7 @@
 				5CF334DE1F8AF0EA003F1E0F /* ViewController.swift in Sources */,
 				5CF334DC1F8AF0EA003F1E0F /* AppDelegate.swift in Sources */,
 				5CF334F31F8AF1C2003F1E0F /* RegisterViewController.swift in Sources */,
+				5CEC3A8D1F98502500CD62CF /* HomepageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +408,7 @@
 				5CF334EC1F8AF0EA003F1E0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

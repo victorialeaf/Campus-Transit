@@ -9,7 +9,9 @@
 import UIKit
 import Firebase
 
-class RegisterViewController: UIViewController {
+
+
+class RegisterVC: UIViewController {
     
 //    @IBOutlet weak var btnRegister: UIButton!
 //    @IBOutlet weak var txtName: UITextField!
@@ -18,8 +20,8 @@ class RegisterViewController: UIViewController {
 //    @IBOutlet weak var container: UIView!
     
     @IBOutlet weak var txtPassword: UITextField!
-    @IBOutlet weak var txtEmail: UITextField!
     @IBOutlet weak var txtName: UITextField!
+    @IBOutlet weak var txtEmail: UITextField!
     @IBAction func btnRegister_TouchUpInside(_sender: Any){
         
         if let email = txtEmail.text, let password = txtPassword.text, let name = txtName.text{
